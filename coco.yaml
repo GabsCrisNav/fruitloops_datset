@@ -1,0 +1,37 @@
+
+train: ../dataset/train/images  # 1405 images
+val: ../dataset/val/images  # 722 images
+test: ../dataset/test/images  # 150
+
+# number of classes
+nc: 26
+
+# class names
+names: [
+    "apple",
+    "banana",
+    "strawberry",
+    "bell_pepper",
+    "cabbage",
+    "artichoke",
+    "carrot",
+    "broccoli",
+    "mushrooms",
+    "coconut",
+    "cucumber",
+    "grapefruit",
+    "peach",
+    "pumpkin",
+    "grapes",
+    "zucchini",
+    "lemon",
+    "mango",
+    "orange",
+    "pear",
+    "pineapple",
+    "pomegranate",  
+    "potato",
+    "radish",      
+    "tomato",
+    "watermelon"
+]
